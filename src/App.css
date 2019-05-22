@@ -14,6 +14,73 @@ a {
   text-decoration: none;
 }
 
+.Header {
+  background: #ab2a19;
+  color: #fff;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.Form {
+  height: 60vh;
+  width: 25vw;
+  background: #3ad886;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 7px;
+}
+
+.url-container {
+  height: 18vh;
+  width: 18vw;
+  background: #fff;
+  margin: 2vh auto;
+}
+
+/* Form Buttons */
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.form-button {
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: Arial;
+  color: #333;
+  font-size: 14px;
+  background: #ed6b5a;
+  padding: 5px 10px;
+  text-decoration: none;
+  margin: 20px 30px;
+}
+
+.form-button:hover {
+  background: #ed6b5a;
+  background-image: -webkit-linear-gradient(top, #ed6b5a, #d34735);
+  background-image: -moz-linear-gradient(top, #ed6b5a, #d34735);
+  background-image: -ms-linear-gradient(top, #ed6b5a, #d34735);
+  background-image: -o-linear-gradient(top, #ed6b5a, #d34735);
+  background-image: linear-gradient(to bottom, #ed6b5a, #d34735);
+  text-decoration: none;
+}
+
+/* Form Input Fields */
+
+input {
+  width: 20vw;
+}
+
+
 /* <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> 
 
 #ab2a19 - dark red

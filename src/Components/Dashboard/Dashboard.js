@@ -15,7 +15,7 @@ export class Dashboard extends Component {
     render() {
         return (
             <div>
-                <div>
+                <div className="product-container">
                     {this.props.products.map(product => {
                         console.log(product)
                         return(

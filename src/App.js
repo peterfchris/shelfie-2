@@ -36,9 +36,11 @@ export class App extends Component {
       <div>
         <Header />
         <div className="dashboard-form">
-          <Dashboard
-          products={this.state.products} />
-          <Form />
+          <div className="component-container">
+            <Dashboard
+            products={this.state.products} />
+            <Form />
+          </div>
         </div>
       </div>
     );

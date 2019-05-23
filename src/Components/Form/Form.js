@@ -5,7 +5,7 @@ export class Form extends Component {
         super()
 
         this.state = {
-            url: '',
+            image_url: '',
             name: '',
             price: 0
         }
@@ -29,8 +29,8 @@ export class Form extends Component {
                     <p>Image URL:</p>
                     <input
                     type="text"
-                    name="url"
-                    value={this.state.url}
+                    name="image_url"
+                    value={this.state.image_url}
                     onChange={this.handleChange} />
                     <p>Product Name:</p>
                     <input

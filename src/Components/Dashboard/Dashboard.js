@@ -7,7 +7,7 @@ export class Dashboard extends Component {
 
         this.state = {
             products: [],
-            url: '',
+            image_url: '',
             name: '',
             price: 0
         }
@@ -21,7 +21,7 @@ export class Dashboard extends Component {
                         return(
                             <Product
                             key={product.id}
-                            url={product.url}
+                            url={product.image_url}
                             name={product.name}
                             price={product.price}
                              /> 

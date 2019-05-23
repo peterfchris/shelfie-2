@@ -14,3 +14,4 @@ massive(CONNECTION_STRING).then((database) => {
 })
 
 app.get('/api/inventory', controller.getInventory)
+app.post('/api/product', controller.addProduct)

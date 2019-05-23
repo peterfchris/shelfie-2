@@ -8,5 +8,13 @@ module.exports = {
         .catch((err) => {
             res.status(500).send(err)
         })
+    },
+    addProduct: (req, res) => {
+        const db = req.app.get('db')
+        const {$name, $price, $image_url} = req.body
+        db.add_product()
+        .then(($name, $price, $image_url) => {
+            res.status(200).send($name, $price, $image_url)
+        })
     }
 }

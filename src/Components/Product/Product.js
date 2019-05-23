@@ -6,7 +6,7 @@ export class Product extends Component {
             <div className="dashboard-product">
                 <p>{this.props.name}<br/>
                 {this.props.price}<br/>
-                {this.props.url}</p>
+                {this.props.image_url}</p>
             </div>
         )
     }

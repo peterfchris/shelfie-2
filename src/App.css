@@ -1,3 +1,13 @@
+/* <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> 
+
+#ab2a19 - dark red
+#d34735 - medium red
+#ed6b5a - light red
+#3ad886 - light green
+
+*/
+
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -25,6 +35,8 @@ a {
   padding-left: 20px;
 }
 
+/* Form */
+
 .Form {
   height: 60vh;
   width: 25vw;
@@ -43,7 +55,6 @@ a {
   margin: 2vh auto;
 }
 
-/* Form Buttons */
 
 .buttons {
   display: flex;
@@ -74,18 +85,27 @@ a {
   text-decoration: none;
 }
 
-/* Form Input Fields */
-
 input {
   width: 20vw;
 }
 
+/* Dashboard & Products */
 
-/* <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> 
+.dashboard-product p {
+  background: #d34735;
+  height: 10vh;
+  width: 40%;
+  border-radius: 7px;
+  padding: 5px 20% 10%;
+}
 
-#ab2a19 - dark red
-#d34735 - medium red
-#ed6b5a - light red
-#3ad886 - light green
+.dashboard-product {
+  margin: 2vh 5vw;
+}
 
-*/
+.dashboard-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: space-around;
+}
